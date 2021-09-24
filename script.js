@@ -100,9 +100,8 @@ document.getElementById('mars-buy').addEventListener('click', function() {
 
     score -= 1000;
 
-    addPlanet('mars');
-
     passive.marses += 1;
+    addPlanet('mars');
 });
 
 document.addEventListener('mousemove', evt => {
