@@ -19,8 +19,7 @@ const cursorPrices = [0,10,100,1000,5000,10000]
 let x, y;
 
 function updatePassiveIncr() {
-    passiveIncr = 0;
-    passiveIncr += passive.moons * 2;
+    passiveIncr = passive.moons * 2;
     passiveIncr += passive.marses * 25;
 
     passiveElement.innerText = `+${passiveIncr}`;
