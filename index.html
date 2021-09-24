@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar System clicker</title>
+
+    <link href="./style.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div class="container">
+        <div class="game-container">
+            <div class="score">
+                <p id="score-field" style="width: 50px">0</p>
+                <p id="passive-field">+0</p>
+            </div>
+
+            <div class="click-area">
+                <div class="planet" id="planet">
+                </div>
+            </div>
+
+            <div class="store-area">
+                <div class="buy-card">
+                    <p>Cursor upgrade</p>
+                    <p id="cursor-price">10</p>
+                    <p id="cursor-incr">+2</p>
+                    <button id="cursor-buy">Buy</button>
+                </div>
+                <div class="buy-card">
+                    <p>Moon</p>
+                    <p>100</p>
+                    <p>+2</p>
+                    <button id="moon-buy">Buy</button>
+                </div>
+                <div class="buy-card">
+                    <p>Mars</p>
+                    <p>1000</p>
+                    <p>+25</p>
+                    <button id="mars-buy">Buy</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
